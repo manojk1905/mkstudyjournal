@@ -1,0 +1,6 @@
+server.port: 8443
+server.ssl.key-alias: cert
+server.ssl.key-store-password: mks@4321RV
+server.ssl.key-store: classpath:cert.jks
+server.ssl.key-store-provider: SUN
+server.ssl.key-store-type: JKS
